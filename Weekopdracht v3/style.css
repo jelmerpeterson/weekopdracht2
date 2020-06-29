@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.li-items {
+  display: block;
+  list-style-type: none;
+}
+
+#content-films {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+#films-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+img {
+  width: 200px;
+}
+
+h2 {
+  display: none;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: monospace;
+}
